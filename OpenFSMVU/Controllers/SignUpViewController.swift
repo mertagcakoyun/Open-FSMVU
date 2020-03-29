@@ -19,9 +19,8 @@ class SignUpViewController:UIViewController{
     @IBOutlet weak var WarningTF: UILabel!
   
     struct name {
-        let email : EmailTF
-        let password : PasswordTF
-        
+        var email : UITextField
+      
     }
     
     @IBAction func CompSignUpBtn(_ sender: Any) {

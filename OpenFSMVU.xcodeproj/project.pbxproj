@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BC155801243018010069CB3B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC155800243018010069CB3B /* GoogleService-Info.plist */; };
-		BC48E9EF242A17CE00DEC8B3 /* SignUpViewController in Sources */ = {isa = PBXBuildFile; fileRef = BC48E9EE242A17CE00DEC8B3 /* SignUpViewController */; };
+		BC48E9EF242A17CE00DEC8B3 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC48E9EE242A17CE00DEC8B3 /* SignUpViewController.swift */; };
 		BC48E9F1242ABD3200DEC8B3 /* KayitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC48E9F0242ABD3200DEC8B3 /* KayitViewController.swift */; };
 		BC48E9F2242ABD3200DEC8B3 /* KayitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC48E9F0242ABD3200DEC8B3 /* KayitViewController.swift */; };
 		BC9D84CD24290A260015E847 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9D84CC24290A260015E847 /* AppDelegate.swift */; };
@@ -35,7 +35,7 @@
 		190C377880F4200C5D86C8E7 /* Pods-OpenFSMVU.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenFSMVU.release.xcconfig"; path = "Target Support Files/Pods-OpenFSMVU/Pods-OpenFSMVU.release.xcconfig"; sourceTree = "<group>"; };
 		8D8C86FE96C184E1DFCC5AA0 /* libPods-OpenFSMVU.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenFSMVU.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC155800243018010069CB3B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		BC48E9EE242A17CE00DEC8B3 /* SignUpViewController */ = {isa = PBXFileReference; lastKnownFileType = text; path = SignUpViewController; sourceTree = "<group>"; };
+		BC48E9EE242A17CE00DEC8B3 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		BC48E9F0242ABD3200DEC8B3 /* KayitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KayitViewController.swift; sourceTree = "<group>"; };
 		BC9D84C924290A260015E847 /* OpenFSMVU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenFSMVU.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC9D84CC24290A260015E847 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -82,7 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				BC9D84D024290A260015E847 /* ViewController.swift */,
-				BC48E9EE242A17CE00DEC8B3 /* SignUpViewController */,
+				BC48E9EE242A17CE00DEC8B3 /* SignUpViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -280,7 +280,7 @@
 				BC9D84D124290A260015E847 /* ViewController.swift in Sources */,
 				BC9D84CD24290A260015E847 /* AppDelegate.swift in Sources */,
 				BC48E9F1242ABD3200DEC8B3 /* KayitViewController.swift in Sources */,
-				BC48E9EF242A17CE00DEC8B3 /* SignUpViewController in Sources */,
+				BC48E9EF242A17CE00DEC8B3 /* SignUpViewController.swift in Sources */,
 				BC9D84CF24290A260015E847 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
