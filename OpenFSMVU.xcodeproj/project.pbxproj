@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC155801243018010069CB3B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC155800243018010069CB3B /* GoogleService-Info.plist */; };
+		BC48E9EF242A17CE00DEC8B3 /* SignUpViewController in Sources */ = {isa = PBXBuildFile; fileRef = BC48E9EE242A17CE00DEC8B3 /* SignUpViewController */; };
+		BC48E9F1242ABD3200DEC8B3 /* KayitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC48E9F0242ABD3200DEC8B3 /* KayitViewController.swift */; };
+		BC48E9F2242ABD3200DEC8B3 /* KayitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC48E9F0242ABD3200DEC8B3 /* KayitViewController.swift */; };
 		BC9D84CD24290A260015E847 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9D84CC24290A260015E847 /* AppDelegate.swift */; };
 		BC9D84CF24290A260015E847 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9D84CE24290A260015E847 /* SceneDelegate.swift */; };
 		BC9D84D124290A260015E847 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9D84D024290A260015E847 /* ViewController.swift */; };
@@ -14,6 +18,7 @@
 		BC9D84D624290A270015E847 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC9D84D524290A270015E847 /* Assets.xcassets */; };
 		BC9D84D924290A270015E847 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC9D84D724290A270015E847 /* LaunchScreen.storyboard */; };
 		BC9D84E424290A280015E847 /* OpenFSMVUTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9D84E324290A280015E847 /* OpenFSMVUTests.swift */; };
+		FCB9B25B50258325F8C82B3B /* libPods-OpenFSMVU.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D8C86FE96C184E1DFCC5AA0 /* libPods-OpenFSMVU.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +32,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		190C377880F4200C5D86C8E7 /* Pods-OpenFSMVU.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenFSMVU.release.xcconfig"; path = "Target Support Files/Pods-OpenFSMVU/Pods-OpenFSMVU.release.xcconfig"; sourceTree = "<group>"; };
+		8D8C86FE96C184E1DFCC5AA0 /* libPods-OpenFSMVU.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenFSMVU.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC155800243018010069CB3B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BC48E9EE242A17CE00DEC8B3 /* SignUpViewController */ = {isa = PBXFileReference; lastKnownFileType = text; path = SignUpViewController; sourceTree = "<group>"; };
+		BC48E9F0242ABD3200DEC8B3 /* KayitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KayitViewController.swift; sourceTree = "<group>"; };
 		BC9D84C924290A260015E847 /* OpenFSMVU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenFSMVU.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC9D84CC24290A260015E847 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC9D84CE24290A260015E847 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +48,7 @@
 		BC9D84DF24290A280015E847 /* OpenFSMVUTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenFSMVUTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC9D84E324290A280015E847 /* OpenFSMVUTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenFSMVUTests.swift; sourceTree = "<group>"; };
 		BC9D84E524290A280015E847 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF0C3EA8E0F79475B56E2A96 /* Pods-OpenFSMVU.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenFSMVU.debug.xcconfig"; path = "Target Support Files/Pods-OpenFSMVU/Pods-OpenFSMVU.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCB9B25B50258325F8C82B3B /* libPods-OpenFSMVU.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,12 +70,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B51C950508A0D40FDF1F6980 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D8C86FE96C184E1DFCC5AA0 /* libPods-OpenFSMVU.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC48E9F4242ABF7100DEC8B3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BC9D84D024290A260015E847 /* ViewController.swift */,
+				BC48E9EE242A17CE00DEC8B3 /* SignUpViewController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		BC9D84C024290A260015E847 = {
 			isa = PBXGroup;
 			children = (
 				BC9D84CB24290A260015E847 /* OpenFSMVU */,
 				BC9D84E224290A280015E847 /* OpenFSMVUTests */,
 				BC9D84CA24290A260015E847 /* Products */,
+				BF861D2A6DACDB8AD8C0E640 /* Pods */,
+				B51C950508A0D40FDF1F6980 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,14 +110,16 @@
 		BC9D84CB24290A260015E847 /* OpenFSMVU */ = {
 			isa = PBXGroup;
 			children = (
+				BC48E9F4242ABF7100DEC8B3 /* Controllers */,
 				BC9D84EE242910760015E847 /* Images */,
 				BC9D84CC24290A260015E847 /* AppDelegate.swift */,
 				BC9D84CE24290A260015E847 /* SceneDelegate.swift */,
-				BC9D84D024290A260015E847 /* ViewController.swift */,
 				BC9D84D224290A260015E847 /* Main.storyboard */,
 				BC9D84D524290A270015E847 /* Assets.xcassets */,
 				BC9D84D724290A270015E847 /* LaunchScreen.storyboard */,
 				BC9D84DA24290A270015E847 /* Info.plist */,
+				BC155800243018010069CB3B /* GoogleService-Info.plist */,
+				BC48E9F0242ABD3200DEC8B3 /* KayitViewController.swift */,
 			);
 			path = OpenFSMVU;
 			sourceTree = "<group>";
@@ -107,6 +140,15 @@
 			path = Images;
 			sourceTree = "<group>";
 		};
+		BF861D2A6DACDB8AD8C0E640 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF0C3EA8E0F79475B56E2A96 /* Pods-OpenFSMVU.debug.xcconfig */,
+				190C377880F4200C5D86C8E7 /* Pods-OpenFSMVU.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -114,6 +156,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC9D84E824290A280015E847 /* Build configuration list for PBXNativeTarget "OpenFSMVU" */;
 			buildPhases = (
+				4F9AB5BE7B65380793DD50DC /* [CP] Check Pods Manifest.lock */,
 				BC9D84C524290A260015E847 /* Sources */,
 				BC9D84C624290A260015E847 /* Frameworks */,
 				BC9D84C724290A260015E847 /* Resources */,
@@ -189,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC9D84D924290A270015E847 /* LaunchScreen.storyboard in Resources */,
+				BC155801243018010069CB3B /* GoogleService-Info.plist in Resources */,
 				BC9D84D624290A270015E847 /* Assets.xcassets in Resources */,
 				BC9D84D424290A260015E847 /* Main.storyboard in Resources */,
 			);
@@ -203,6 +247,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4F9AB5BE7B65380793DD50DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpenFSMVU-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BC9D84C524290A260015E847 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -210,6 +279,8 @@
 			files = (
 				BC9D84D124290A260015E847 /* ViewController.swift in Sources */,
 				BC9D84CD24290A260015E847 /* AppDelegate.swift in Sources */,
+				BC48E9F1242ABD3200DEC8B3 /* KayitViewController.swift in Sources */,
+				BC48E9EF242A17CE00DEC8B3 /* SignUpViewController in Sources */,
 				BC9D84CF24290A260015E847 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC9D84E424290A280015E847 /* OpenFSMVUTests.swift in Sources */,
+				BC48E9F2242ABD3200DEC8B3 /* KayitViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,6 +440,7 @@
 		};
 		BC9D84E924290A280015E847 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF0C3EA8E0F79475B56E2A96 /* Pods-OpenFSMVU.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -377,7 +450,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = IOS.OpenFSMVU;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fsmvu.firebase.openfsmvu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -386,6 +459,7 @@
 		};
 		BC9D84EA24290A280015E847 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 190C377880F4200C5D86C8E7 /* Pods-OpenFSMVU.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -395,7 +469,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = IOS.OpenFSMVU;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fsmvu.firebase.openfsmvu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
